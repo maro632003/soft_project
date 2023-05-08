@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95vh;
+    flex-flow: column;
+    background-color: #8d8e8921;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-image: url(جامعة\ المنوفية.png);
+    background-size: cover;
+    border: #d8dee4 solid 2px;
+    border-radius: 6px;
+}
+
+ .parent {
+    padding: 20px;
+    background-color: #f6f8fa;
+    width: 40%;
+    height: 50%;
+    border: #d8dee4 solid 2px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column ;
+    align-items: center;
+}
+
+
+
+form {
+    background-color: #8d8e8921;
+    width: 110%;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: #d8dee4 solid 2px;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form .file {
+    /* color: #8d8e8921; */
+    /* height: 20px;     */
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+form .submit {
+    width: 30%;
+    height: 25%;
+    font-weight: bold;
+    font-size: 20px;
+    border: #d8dee4 solid 2px;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+}
+
+form .submit:hover {
+    width: 35%;
+    height: 30%;
+}
+
+

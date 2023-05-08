@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95vh;
+    flex-flow: column;
+    background-color: #8d8e8921;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-image: url(جامعة\ المنوفية.png);
+    background-size: cover;
+    border: #d8dee4 solid 2px;
+    border-radius: 6px;
+}
+
+.parent {
+    padding: 20px;
+    background-color: #f6f8fa;
+    width: 40%;
+    height: 50%;
+    border: #d8dee4 solid 2px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    align-items: center;
+}
+
+a {
+    
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    border: #d8dee4 solid 2px;
+    transition-duration: 0.5s;
+    background-color: #f0f0ef;
+    
+}
+
